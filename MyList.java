@@ -4,6 +4,6 @@ public interface MyList {
 	public boolean isEmpty();
 	public boolean contains(Object element);
 	public int size();
-	dpublic Object get(int i);
+	public Object get(int i);
 }
 
