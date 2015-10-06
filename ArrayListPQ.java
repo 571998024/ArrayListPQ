@@ -29,11 +29,13 @@ public class ArrayListPQ implements PriorityQueue {
 	}
 	
 	public void enQueue(Object e) {
-		// your code
+		myList.add(e);
 	}
 	
 	public Object deQueue() {
-		// your code
+		Object result = peek();
+		myList.remove(maxIndex());
+		return result;
 	}
 }
 
